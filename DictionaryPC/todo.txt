@@ -1,0 +1,125 @@
+Handle wiki tables {| ..  |-|  .. |}
+de-conj
+why does presso not show up?
+{{L
+{{term
+{{etyl
+{{l
+{{de-conj
+Delete it conjugation of entries.
+
+Compression for PairEntries!
+delete these entries:
+# {{conjugation of|abalienare||2|p|pres|ind|lang=it}}
+# {{conjugation of|abalienare||2|p|imp|lang=it}}
+# {{form of|[[feminine|Feminine]] plural|abalienato}}
+
+Hitory of lookups.
+
+make sure word is sticky when you change dictionaries.
+
+- on small device it would be great to be able to hide the system status bar and the title bar
+- an history list of the searched words per dictionary with the possibility of having a rudimentary flash card game from it to memorise new words
+
+
+To republish:
+* what's new screen.
+* download latest wiktionaries
+* split
+* DictionaryBuilderTest
+* rebuild dictionaries.
+* zip -9
+* rebuild Check
+* publish.
+
+
+anytime there's a tr= or a head=, make sure to file under that!
+for i in res/raw*/*.html; do echo $i; tidy --input-encoding utf8  --output-file $i $i; done
+
+SpannableText persisted class with a list of spans with span types. (might need its own builder.)
+Update DictionaryBuilder.jar
+For next release:
+flag images
+history dialog
+italian verbs... (show conjugation, pulled from a linked place....--would lower size a lot!)
+
+handle enwiktionary examples like "asdf (asdf)"
+better example splitting
+check arabic UI fix
+
+* link to leo, dict.cc
+* source in context menu
+* quiz
+* colorize things
+
+Ok, good to know.  I will put in Dutch-Greek in the next release, and see if I can separate the Ancient Greek from the modern Greek.
+
+flashcards
+move dict to top of list when downloaded
+speech synthesis
+speech recognition
+text to speech / audio from wiktionary
+icons inside dictionaries
+
+
+done:
+{infl}
+better handling of language name in foreign sections (might need to append it if it isn't exact)
+sub-levels in translations.
+add unit test for: Errors: [Unmatched {{ error: * {{a|US}} {{IPA|[ˈfɔɹ.wɝd]]}}
+add to wordlist should focus word (so next typing clears text).
+sideways keyboard appear.
+always put defs in list...
+**** code.google.com:
+! Check analytics
+! Upload dics
+font size
+refactor wiki parsing.
+{{Arab}}
+"form of" to bottom
+new dictionary version: with links!
+parse dictionary_info file in client to show default dictionaries.
+black/blue background title rows, gray side pane for other language side
+faster search
+show "no search results"
+fix {t}
+add langs
+fix \n in info
+help screen
+num words in UI.
+multiword find.
+! enter should hide keyboard
+eng_urdu
+about dict dialog
+* timeout on the exact search...  if it can't confirm, it should just switch and go....
+* reload dictionaryInfo sometime...
+* change path of /sdcard/quickDic/...
+fix up dictionary manager:
+  thread that handles unzipping, downloading for the life of the application (so screen changes don't screw it up).
+  check over UI.
+* multi word search
+change sorting to put your locale first
+Handle other sections:
+  Pronunciation
+  Synonyms
+  Usage notes.
+  Chinese: handle "Compounds" section
+handle word-info in English.
+random word jump
+Hide uninstalled dictionaries.
+sorting of entries
+better Row/Entry classes?
+wiktionary
+better tokenization?
+publish 2.0 dictionary
+test email
+dict manager
+get rid of Appendix:....  sections from EN.data in split.
+Smise, in chart
+long click on see also works to link
+Links in HTML work: mostly, they don't open with the keyboard open
+when edit text loses focus, all highlighted: impossible if it's not focused.
+Web view search works.
+EN dictionaries.
+Compression
+  
